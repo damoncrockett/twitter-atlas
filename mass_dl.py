@@ -24,10 +24,12 @@ for i in range(n):
             status_code.append("two_hundo")
             with open(path, 'wb') as f:
                 r.raw.decode_content = True
-                shutil.copyfileobj(r.raw, f)  
+                shutil.copyfileobj(r.raw, f)
+        else:
+                    status_code.append("bad_link")
+        
     except:
-        status_code.append("bad_link")
-        print "bad_link"
+        print "err"
         
 df['status_code'] = status_code
 df.to_csv(infile,index=False)
