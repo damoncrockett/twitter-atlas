@@ -1,0 +1,498 @@
+Center,Urban_Area,Country,Population,tweet_count_total
+Tokyo,Tokyo?Yokohama,Japan,37843000,4129315
+Jakarta,Jakarta,Indonesia,30539000,4539924
+Delhi,Delhi,India,24998000,153813
+Manila,Manila,Philippines,24123000,2069500
+Seoul,Seoul?Gyeonggi?Incheon,South Korea,23480000,835105
+Shanghai,Shanghai,China,23416000,46464
+Karachi,Karachi,Pakistan,22123000,62607
+Beijing,Beijing,China,21009000,39182
+New York City,New York City,United States,20630000,5146216
+Guangzhou,Guangzhou?Foshan,China,20597000,17583
+Sao Paulo,Sao Paulo,Brazil,20365000,1529041
+Mexico City,Mexico City,Mexico,20063000,2061315
+Mumbai,Mumbai,India,17712000,107346
+Osaka,Osaka?Kobe?Kyoto,Japan,17444000,1968153
+Moscow,Moscow,Russia,16170000,1541119
+Dhaka,Dhaka,Bangladesh,15669000,15565
+Cairo,Greater Cairo,Egypt,15600000,381958
+Los Angeles,Los Angeles,United States,15058000,4006168
+Bangkok,Bangkok,Thailand,14998000,2061050
+Kolkata,Kolkata,India,14667000,28216
+Buenos Aires,Buenos Aires,Argentina,14122000,2034166
+Istanbul,Istanbul,Turkey,13287000,3113482
+Tehran,Tehran,Iran,13532000,8164
+Lagos,Lagos,Nigeria,13123000,191296
+Shenzhen,Shenzhen,China,12084000,61118
+Rio de Janeiro,Rio de Janeiro,Brazil,11727000,1121630
+Kinshasa,Kinshasa,Democratic Republic of the Congo,11587000,4579
+Tianjin,Tianjin,China,10920000,3111
+Paris,Paris,France,10858000,1609175
+Lima,Lima,Peru,10750000,425383
+Chengdu,Chengdu,China,10376000,7334
+London,London,United Kingdom,10236000,3435878
+Nagoya,Nagoya,Japan,10177000,810671
+Lahore,Lahore,Pakistan,10052000,43243
+Chennai,Chennai,India,9714000,43944
+Chicago,Chicago,United States,9156000,1671515
+Bogota,Bogota,Colombia,8991000,859840
+Ho Chi Minh City,Ho Chi Minh City,Vietnam,8957000,52757
+Hyderabad,Hyderabad,India,8754000,38694
+Bengaluru,Bengaluru,India,8728906,70009
+Dongguan,Dongguan,China,8442000,2643
+Johannesburg,Johannesburg?East Rand,South Africa,8432000,364444
+Wuhan,Wuhan,China,7509000,7720
+Taipei,Taipei,Taiwan,7438000,132059
+Hangzhou,Hangzhou,China,7275000,6280
+Hong Kong,Hong Kong,China,7246000,52748
+Chongqing,Chongqing,China,7217000,3662
+Ahmedabad,Ahmedabad,India,7186000,23423
+Kuala Lumpur,Kuala Lumpur,Malaysia,7088000,1346430
+Quanzhou,Quanzhou,China,6710000,635
+Essen,Essen?Dusseldorf,Germany,6679000,80290
+Baghdad,Baghdad,Iraq,6625000,137492
+Toronto,Toronto,Canada,6456000,701227
+Santiago,Santiago,Chile,6225000,867557
+Dallas,Dallas?Fort Worth,United States,6174000,1855383
+Madrid,Madrid,Spain,6171000,1917305
+Nanjing,Nanjing,China,6155000,6055
+Shenyang,Shenyang,China,6078000,2115
+Xi'an,Xi'an?Xianyang,China,5977000,2982
+San Francisco,San Francisco?San Jose,United States,5929000,894265
+Luanda,Luanda,Angola,5899000,15294
+Qingdao,Qingdao?Jimo,China,5816000,1968
+Miami,Miami,United States,5764000,1107655
+Houston,Houston,United States,5764000,1418446
+Bandung,Bandung,Indonesia,5695000,694679
+Riyadh,Riyadh,Saudi Arabia,5666000,2515612
+Pune,Pune,India,5631000,31215
+Singapore,Singapore,Singapore,5624000,587365
+Philadelphia,Philadelphia,United States,5570000,1629202
+Surat,Surat,India,5447000,9054
+Milan,Milan,Italy,5257000,431851
+Suzhou,Suzhou,China,5246000,2579
+Saint Petersburg,Saint Petersburg,Russia,5126000,441478
+Khartoum,Khartoum,Sudan,5125000,26212
+Atlanta,Atlanta,United States,5015000,1276415
+Zhengzhou,Zhengzhou?Xingyang,China,4942000,2058
+"Washington, D.C.","Washington, D.C.",United States,4889000,1395647
+Surabaya,Surabaya,Indonesia,4881000,422545
+Harbin,Harbin,China,4815000,1073
+Abidjan,Abidjan,Ivory Coast,4800000,31899
+Yangon,Yangon,Myanmar,4800000,13435
+Nairobi,Nairobi,Kenya,4738000,93157
+Barcelona,Barcelona,Spain,4693000,635972
+Alexandria,Alexandria,Egypt,4689000,83829
+Kabul,Kabul,Afghanistan,4635000,6367
+Guadalajara,Guadalajara,Mexico,4603000,279803
+Ankara,Ankara,Turkey,4538000,505198
+Belo Horizonte,Belo Horizonte,Brazil,4517000,336111
+Boston,Boston,United States,4478000,1213417
+Xiamen,Xiamen,China,4420000,2914
+Kuwait City,Kuwait City,Kuwait,4283000,803878
+Dar es Salaam,Dar es Salaam,Tanzania,4219000,25626
+Phoenix,Phoenix,United States,4194000,842516
+Dalian,Dalian,China,4183000,2019
+Accra,Accra,Ghana,4145000,92724
+Monterrey,Monterrey,Mexico,4083000,610652
+Berlin,Berlin,Germany,4069000,200676
+Sydney,Sydney,Australia,4036000,328859
+"Fuzhou, Fujian",Fuzhou,China,3962000,1842
+Medan,Medan,Indonesia,3942000,272137
+Dubai,Dubai,United Arab Emirates,3933000,502925
+Busan,Busan,South Korea,3906000,101050
+Rome,Rome,Italy,3906000,388576
+Melbourne,Melbourne,Australia,3906000,274832
+Cape Town,Cape Town,South Africa,3812000,132768
+Jinan,Jinan,China,3789000,1511
+Ningbo,Ningbo,China,3753000,1586
+Hanoi,Hanoi,Vietnam,3715000,29405
+Naples,Naples,Italy,3706000,148042
+Taiyuan,Taiyuan?Yuci,China,3702000,892
+Jeddah,Jeddah,Saudi Arabia,3677000,47188
+Detroit,Detroit,United States,3672000,948338
+Hefei,Hefei,China,3665000,1065
+Changsha,Changsha,China,3657000,2039
+Kunming,Kunming?Anning,China,3649000,209
+Wuxi,Wuxi,China,3597000,1142
+Medellin,Medellin,Colombia,3568000,193651
+Faisalabad,Faisalabad,Pakistan,3560000,4912
+Aleppo,Aleppo,Syria,3560000,2228
+Kano,Kano,Nigeria,3550000,16242
+Montreal,Montreal,Canada,3407963,250199
+Dakar,Dakar,Senegal,3520000,2026
+Athens,Athens,Greece,3484000,92694
+Changzhou,Changzhou,China,3425000,895
+Durban,Durban,South Africa,3421000,85320
+Porto Alegre,Porto Alegre,Brazil,3413000,313481
+Jaipur,Jaipur,India,3409000,11182
+Fortaleza,Fortaleza,Brazil,3401000,165267
+Addis Ababa,Addis Ababa,Ethiopia,3376000,4537
+Changchun,Changchun,China,3368000,999
+Shijiazhuang,Shijiazhuang,China,3367000,794
+Recife,Recife,Brazil,3347000,231534
+Mashhad,Mashhad,Iran,3294000,280
+Seattle,Seattle,United States,3218000,537692
+Casablanca,Casablanca,Morocco,3211000,23141
+Salvador,Salvador,Brazil,3190000,76081
+Lucknow,Lucknow,India,3184000,7840
+Urumqi,Urumqi,China,3184000,469
+Chittagong,Chittagong,Bangladesh,3176000,1831
+Wenzhou,Wenzhou,China,3169000,1228
+Ibadan,Ibadan,Nigeria,3160000,15863
+Izmir,Izmir,Turkey,3112000,633666
+Curitiba,Curitiba,Brazil,3102000,236811
+San Diego,San Diego,United States,3086000,665035
+Yaounde,Yaounde,Cameroon,3060000,6567
+Zhangjiagang,Zhangjiagang?Jiangyin?Jingjiang,China,3056000,687
+Kanpur,Kanpur,India,3037000,2152
+Zhongshan,Zhongshan,China,3031000,667
+Sana'a,Sana'a,Yemen,2980000,15715
+Tel Aviv,Tel Aviv,Israel,2979000,138756
+Guiyang,Guiyang,China,2955000,690
+Douala,Douala,Cameroon,2940000,3640
+Taichung,Taichung,Taiwan,2935000,25475
+Pretoria,Pretoria,South Africa,2927000,125302
+Santo Domingo,Santo Domingo,Dominican Republic,2925000,396815
+Hyderabad,Hyderabad,Pakistan,2920000,3455
+Caracas,Caracas,Venezuela,2861000,453210
+Pyongyang,Pyongyang,North Korea,2850000,1225
+Kalyan,Kalyan,India,2841000,4579
+Asuncion,Asuncion,Paraguay,2827000,403992
+Minneapolis,Minneapolis?Saint Paul,United States,2771000,635346
+Lanzhou,Lanzhou,China,2703000,256
+Guayaquil,Guayaquil,Ecuador,2700000,444657
+Ouagadougou,Ouagadougou,Burkina Faso,2700000,2567
+Nagpur,Nagpur,India,2668000,5039
+Lisbon,Lisbon,Portugal,2666000,128254
+Baku,Baku,Azerbaijan,2661000,56284
+Rotterdam,Rotterdam?The Hague,Netherlands,2660000,310810
+Campinas,Campinas,Brazil,2645000,112145
+Manchester,Manchester,United Kingdom,2639000,926873
+Nanchang,Nanchang,China,2637000,950
+Tampa,Tampa?St. Petersburg,United States,2621000,462551
+Maputo,Maputo,Mozambique,2615000,9434
+Kaohsiung,Kaohsiung,Taiwan,2599000,17566
+Nanning,Nanning,China,2590000,997
+Algiers,Algiers,Algeria,2590000,10593
+Sapporo,Sapporo,Japan,2570000,249119
+Damascus,Damascus,Syria,2560000,13998
+Denver,Denver,United States,2559000,373289
+Brasilia,Brasilia,Brazil,2536000,174337
+Cebu City,Cebu City,Philippines,2535000,138655
+Fukuoka,Fukuoka,Japan,2525000,250806
+Birmingham,Birmingham,United Kingdom,2512000,502343
+Rawalpindi,Rawalpindi?Islamabad,Pakistan,2510000,23363
+Bamako,Bamako,Mali,2500000,4797
+Kumasi,Kumasi,Ghana,2500000,18924
+Coimbatore,Coimbatore,India,2481000,4473
+Amman,Amman,Jordan,2468000,125630
+Linyi,Linyi,China,2465000,274
+Port au Prince,Port-au-Prince,Haiti,2332000,9883
+Abuja,Abuja,Nigeria,2440000,28787
+Shantou,Shantou,China,2419000,415
+Indore,Indore,India,2405000,4524
+Antananarivo,Antananarivo,Madagascar,2398000,1971
+Kozhikode,Kozhikode,India,2394000,692
+Isfahan,Isfahan,Iran,2392000,495
+Chaoyang,Chaoyang?Chaonan,China,2391000,23
+Daegu,Daegu,South Korea,2382000,50557
+Tangshan,Tangshan,China,2378000,220
+Kochi,Kochi,India,2374000,5354
+Cali,Cali,Colombia,2357000,206701
+Shaoxing,Shaoxing,China,2350000,400
+Port Harcourt,Port Harcourt,Nigeria,2340000,16157
+Vancouver,Vancouver,Canada,2135201,691491
+Huai'an,Huai'an,China,2282000,83
+Baltimore,Baltimore,United States,2263000,535247
+Tashkent,Tashkent,Uzbekistan,2250000,19674
+Kiev,Kiev,Ukraine,2241000,201000
+Thrissur,Thrissur,India,2236000,787
+Hohhot,Hohhot,China,2219000,573
+Harare,Harare,Zimbabwe,2203000,7916
+Patna,Patna,India,2200000,3369
+Beirut,Beirut,Lebanon,2200000,177561
+Las Vegas,Las Vegas,United States,2191000,823376
+Lusaka,Lusaka,Zambia,2190000,10803
+Katowice,Katowice?Gliwice?Tychy,Poland,2190000,7822
+St. Louis,St. Louis,United States,2186000,389231
+Colombo,Colombo,Sri Lanka,2180000,19462
+Baotou,Baotou,China,2159000,156
+San Juan,San Juan,Puerto Rico,2139000,402638
+Havana,Havana,Cuba,2130000,1359
+Mogadishu,Mogadishu,Somalia,2120000,1210
+Gujranwala,Gujranwala,Pakistan,2120000,2474
+Goiania,Goiania,Brazil,2117000,126380
+Santa Cruz de la Sierra,Santa Cruz de la Sierra,Bolivia,2110000,17170
+Malappuram,Malappuram,India,2108000,450
+Cologne,Cologne?Bonn,Germany,2104000,52083
+Brussels,Brussels,Belgium,2089000,135823
+Puebla,Puebla,Mexico,2088000,280230
+Hamburg,Hamburg,Germany,2087000,60130
+Bhopal,Bhopal,India,2075000,3173
+Kannur,Kannur,India,2047000,410
+Orlando,Orlando,United States,2040000,775466
+Maracaibo,Maracaibo,Venezuela,2037000,170830
+Mbuji-Mayi,Mbuji-Mayi,Democratic Republic of the Congo,2000000,12
+Lubumbashi,Lubumbashi,Democratic Republic of the Congo,2000000,962
+Handan,Handan,China,2000000,108
+Brisbane,Brisbane,Australia,1999000,110505
+Tunis,Tunis,Tunisia,1990000,14567
+Haikou,Haikou,China,1981000,50
+Munich,Munich,Germany,1981000,74089
+Kitakyushu,Kitakyushu,Japan,1980000,80843
+Belem,Belem,Brazil,1979000,134361
+Portland,Portland,United States,1976000,440422
+San Antonio,San Antonio,United States,1976000,630375
+Tijuana,Tijuana,Mexico,1968000,103460
+Vadodara,Vadodara,India,1963000,6673
+Lome,Lome,Togo,1941000,2200
+Luoyang,Luoyang,China,1939000,271
+Agra,Agra,India,1938000,4475
+Conakry,Conakry,Guinea,1930000,886
+Kampala,Kampala,Uganda,1930000,22946
+Thiruvananthapuram,Thiruvananthapuram,India,1921000,2370
+Frankfurt,Frankfurt,Germany,1915000,55006
+Visakhapatnam,Visakhapatnam,India,1910000,1697
+Minsk,Minsk,Belarus,1910000,233103
+La Paz,La Paz,Bolivia,1907000,10609
+Multan,Multan,Pakistan,1900000,3696
+Manaus,Manaus,Brazil,1893000,153295
+Sargodha,Sargodha,Pakistan,1893000,543
+Sacramento,Sacramento,United States,1885000,288835
+Toluca,Toluca,Mexico,1878000,82670
+Shiraz,Shiraz,Iran,1873000,223
+Bucharest,Bucharest,Romania,1860000,18458
+Brazzaville,Brazzaville,Republic of the Congo,1850000,6044
+Rabat,Rabat,Morocco,1845000,14453
+Bursa,Bursa,Turkey,1839000,181711
+Yogyakarta,Yogyakarta,Indonesia,1831000,437349
+Adana,Adana,Turkey,1830000,135195
+Kunshan,Kunshan,China,1815000,504
+Cleveland,Cleveland,United States,1783000,486144
+Huizhou,Huizhou,China,1763000,239
+Vienna,Vienna,Austria,1763000,82729
+Perth,Perth,Australia,1751000,96563
+Nashik,Nashik,India,1749000,2511
+Barranquilla,Barranquilla,Colombia,1748000,308555
+Peshawar,Peshawar,Pakistan,1730000,3027
+Pittsburgh,Pittsburgh,United States,1730000,481541
+Phnom Penh,Phnom Penh,Cambodia,1729000,18318
+Quito,Quito,Ecuador,1720000,126140
+Warsaw,Warsaw,Poland,1720000,45837
+Vijayawada,Vijayawada,India,1715000,1615
+Ludhiana,Ludhiana,India,1714000,4363
+Budapest,Budapest,Hungary,1710000,51702
+Datong,Datong,China,1709000,112
+Yiwu,Yiwu?Dongyang,China,1704000,665
+Montevideo,Montevideo,Uruguay,1700000,170597
+Tabriz,Tabriz,Iran,1693000,271
+Johor Bahru,Johor Bahru,Malaysia,1688000,317736
+Cincinnati,Cincinnati,United States,1682000,381504
+Mosul,Mosul,Iraq,1675000,6131
+Santos,Santos,Brazil,1653000,124899
+Mecca,Mecca,Saudi Arabia,1647000,458136
+Zibo,Zibo,China,1646000,271
+Homs,Homs,Syria,1640000,1041
+Jilin,Jilin,China,1633000,121
+Davao City,Davao City,Philippines,1630000,1084
+Semarang,Semarang,Indonesia,1630000,235626
+Amsterdam,Amsterdam,Netherlands,1624000,289876
+Indianapolis,Indianapolis,United States,1617000,390191
+Austin,Austin,United States,1616000,466234
+Yinchuan,Yinchuan,China,1614000,179
+Gwangju,Gwangju,South Korea,1601000,24053
+Weifang,Weifang,China,1595000,259
+Kansas City,Kansas City,United States,1593000,293612
+Taizhou,Taizhou,China,1585000,83
+Cordoba,Cordoba,Argentina,1585000,177385
+Lyon,Lyon,France,1583000,92199
+Madurai,Madurai,India,1582000,2757
+General Santos,General Santos,Philippines,1579000,15635
+Liuzhou,Liuzhou,China,1574000,228
+Rajkot,Rajkot,India,1568000,3989
+Daejeon,Daejeon,South Korea,1564000,35169
+Doha,Doha,Qatar,1564000,217621
+Yangzhou,Yangzhou,China,1561000,359
+Valencia,Valencia,Spain,1561000,441611
+Zhuhai,Zhuhai?Macau,China,1547000,5307
+Meerut,Meerut,India,1541000,1471
+Varanasi,Varanasi,India,1536000,3917
+Charlotte,Charlotte,United States,1535000,361589
+Turin,Turin,Italy,1521000,91869
+Yantai,Yantai,China,1520000,184
+Anshan,Anshan?Liaoyang,China,1516000,90
+Almaty,Almaty,Kazakhstan,1500000,50924
+Panama City,Panama City,Panama,1498000,90007
+Benin City,Benin City,Nigeria,1490000,9557
+Cixi,Cixi,China,1490000,93
+Novosibirsk,Novosibirsk,Russia,1486000,121932
+Makassar,Makassar,Indonesia,1484000,423339
+Stockholm,Stockholm,Sweden,1484000,247853
+Columbus,Columbus,United States,1481000,391797
+Valencia,Valencia,Venezuela,1477000,145388
+Porto,Porto,Portugal,1474000,42002
+Leon,Leon,Mexico,1469000,74084
+Putian,Putian,China,1468000,141
+Virginia Beach,Virginia Beach-Norfolk,United States,1463000,126814
+Wuhu,Wuhu,China,1456000,190
+Jamshedpur,Jamshedpur,India,1443000,633
+Kharkiv,Kharkiv,Ukraine,1440000,40619
+Palembang,Palembang,Indonesia,1434000,266260
+Zhangzhou,Zhangzhou,China,1410000,168
+Srinagar,Srinagar,India,1409000,2421
+Milwaukee,Milwaukee,United States,1408000,308481
+Anyang,Anyang,China,1401000,91
+Jiangmen,Jiangmen,China,1399000,566
+Marseille,Marseille,France,1397000,82255
+Gaziantep,Gaziantep,Turkey,1394000,64973
+Ciudad Juarez,Ciudad Juarez,Mexico,1391000,39794
+Stuttgart,Stuttgart,Germany,1379000,25563
+Hiroshima,Hiroshima,Japan,1377000,107731
+Yekaterinburg,Yekaterinburg,Russia,1361000,157379
+Auckland,Auckland,New Zealand,1356000,77553
+Kollam,Kollam,India,1351000,849
+Xining,Xining,China,1345000,178
+Changshu,Changshu,China,1344000,259
+Manama,Manama,Bahrain,1340000,134357
+Jabalpur,Jabalpur,India,1339000,627
+Rosario,Rosario,Argentina,1338000,108501
+Penang,Penang,Malaysia,1336000,62873
+Raipur,Raipur,India,1329000,1801
+Torreon,Torreon,Mexico,1327000,67123
+Aurangabad,Aurangabad,India,1324000,2129
+Fushun,Fushun,China,1324000,42
+Surakarta,Surakarta,Indonesia,1318000,128975
+Asansol,Asansol,India,1315000,625
+Ahvaz,Ahvaz,Iran,1315000,679
+Prague,Prague,Czech Republic,1310000,58198
+Xuzhou,Xuzhou,China,1301000,95
+Baoding,Baoding,China,1297000,226
+Allahabad,Allahabad,India,1294000,2142
+Guatemala City,Guatemala City,Guatemala,1289000,184700
+Sendai,Sendai,Japan,1277000,140706
+Yerevan,Yerevan,Armenia,1274000,11451
+Jodhpur,Jodhpur,India,1266000,1052
+Amritsar,Amritsar,India,1264000,1745
+Huambo,Huambo,Angola,1260000,220
+N'Djamena,N'Djamena,Chad,1260000,1017
+Dhanbad,Dhanbad,India,1258000,292
+Wenling,Wenling,China,1250000,51
+Queretaro,Queretaro,Mexico,1249000,104111
+Copenhagen,Copenhagen,Denmark,1248000,100497
+Ranchi,Ranchi,India,1246000,1571
+Qiqihar,Qiqihar,China,1241000,132
+Cochabamba,Cochabamba,Bolivia,1238000,5776
+Ulan Bator,Ulan Bator,Mongolia,1237000,64675
+Durg-Bhilai,Durg-Bhilai,India,1235000,576
+Medina,Medina,Saudi Arabia,1233000,309679
+Hama,Hama,Syria,1230000,949
+Chifeng,Chifeng,China,1230000,13
+Glasgow,Glasgow,United Kingdom,1220000,355081
+Tainan,Tainan,Taiwan,1216000,8908
+Port Elizabeth,Port Elizabeth,South Africa,1212000,1151
+Gwalior,Gwalior,India,1208000,417
+Weihai,Weihai,China,1208000,138
+Helsinki,Helsinki,Finland,1208000,74218
+Dongying,Dongying,China,1206000,37
+Nizhny Novgorod,Nizhny Novgorod,Russia,1201000,64735
+Providence,Providence,United States,1201000,308299
+Sofia,Sofia,Bulgaria,1195000,24821
+Fes,Fes,Morocco,1193000,4642
+Jiaxing,Jiaxing,China,1192000,208
+Konya,Konya,Turkey,1190000,55084
+Calgary,Calgary,Canada,1095404,125245
+Hamamatsu,Hamamatsu,Japan,1187000,67870
+Nantong,Nantong,China,1184000,557
+Xiangyang,Xiangyang,China,1183000,70
+Kathmandu,Kathmandu,Nepal,1180000,13192
+Belgrade,Belgrade,Serbia,1180000,64119
+Vasai-Virar,Vasai-Virar,India,1179000,1899
+Tiruppur,Tiruppur,India,1177000,937
+Denpasar,Denpasar,Indonesia,1175000,313218
+Marrakesh,Marrakesh,Morocco,1173000,13960
+Vitoria,Vitoria,Brazil,1172000,87437
+Sao Luis,Sao Luis,Brazil,1171000,58425
+San Jose,San Jose,Costa Rica,1170000,153725
+Samara,Samara,Russia,1162000,78305
+Mandalay,Mandalay,Myanmar,1160000,1390
+Dublin,Dublin,Ireland,1160000,483298
+Kazan,Kazan,Russia,1160000,125823
+Zhangjiakou,Zhangjiakou,China,1156000,17
+Omsk,Omsk,Russia,1154000,92959
+Jacksonville,Jacksonville,United States,1154000,200621
+Kananga,Kananga,Democratic Republic of the Congo,1150000,4
+Erbil,Erbil,Iraq,1150000,12659
+Chelyabinsk,Chelyabinsk,Russia,1150000,71999
+Cirebon,Cirebon,Indonesia,1143000,56171
+Huainan,Huainan,China,1142000,64
+Batam,Batam,Indonesia,1142000,27383
+Adelaide,Adelaide,Australia,1140000,59246
+Kota,Kota,India,1138000,714
+San Luis Potosi,San Luis Potosi,Mexico,1137000,56475
+Maracay,Maracay,Venezuela,1135000,101432
+Rui'an,Rui'an,China,1134000,73
+Lianyungang,Lianyungang,China,1128000,211
+Tbilisi,Tbilisi,Georgia,1125000,13535
+Chandigarh,Chandigarh,India,1124000,8247
+Kigali,Kigali,Rwanda,1121000,3905
+Tegucigalpa,Tegucigalpa,Honduras,1120000,91329
+Mombasa,Mombasa,Kenya,1116000,6750
+Huaibei,Huaibei,China,1116000,66
+Malang,Malang,Indonesia,1114000,191862
+Merida,Merida,Mexico,1111000,189635
+Tripoli,Tripoli,Libya,1110000,19548
+Seville,Seville,Spain,1107000,633704
+Memphis,Memphis,United States,1102000,124591
+Tengzhou,Tengzhou,China,1101000,16
+Qom,Qom,Iran,1101000,210
+Pekanbaru,Pekanbaru,Indonesia,1100000,64971
+Quetta,Quetta,Pakistan,1100000,1716
+Onitsha,Onitsha,Nigeria,1100000,2964
+San Salvador,San Salvador,El Salvador,1100000,151419
+Monrovia,Monrovia,Liberia,1100000,1654
+Bareilly,Bareilly,India,1094000,576
+Niamey,Niamey,Niger,1090000,1310
+Bahawalpur,Bahawalpur,Pakistan,1090000,830
+Rostov on Don,Rostov-on-Don,Russia,1090000,114895
+Jiamusi,Jiamusi,China,1089000,32
+Salt Lake City,Salt Lake City,United States,1089000,185257
+Raleigh,Raleigh,United States,1085000,236681
+Nashville,Nashville,United States,1081000,289255
+Hubballi,Hubballi,India,1080000,664
+Mysore,Mysore,India,1078000,1804
+Sialkot,Sialkot,Pakistan,1074000,2995
+Antalya,Antalya,Turkey,1070000,173833
+"Fuzhou, Jiangxi",Fuzhou,China,1052000,5
+Natal,Natal,Brazil,1064000,48202
+Joao Pessoa,Joao Pessoa,Brazil,1052000,58843
+Puning,Puning,China,1043000,58
+Zhanjiang,Zhanjiang,China,1042000,114
+Zhucheng,Zhucheng,China,1041000,39
+Qinhuangdao,Qinhuangdao,China,1041000,240
+Yichang,Yichang,China,1039000,213
+Guwahati,Guwahati,India,1039000,1545
+Naypyidaw,Naypyidaw,Myanmar,1030000,436
+Bucaramanga,Bucaramanga,Colombia,1029000,91674
+Zaria,Zaria,Nigeria,1025000,2716
+Louisville,Louisville,United States,1025000,279596
+Ufa,Ufa,Russia,1024000,106375
+Huzhou,Huzhou,China,1021000,147
+Aligarh,Aligarh,India,1020000,754
+Aguascalientes,Aguascalientes,Mexico,1020000,31152
+Kaduna,Kaduna,Nigeria,1020000,20753
+Dammam,Dammam,Saudi Arabia,1019000,405422
+Mexicali,Mexicali,Mexico,1018000,26732
+Lille,Lille,France,1018000,88233
+Richmond,Richmond,United States,1018000,205862
+Odessa,Odessa,Ukraine,1010000,42860
+Antwerp,Antwerp,Belgium,1008000,80054
+Xiangtan,Xiangtan,China,1007000,131
+Zhuzhou,Zhuzhou,China,1007000,247
+Naha,Naha,Japan,1007000,116374
+Moradabad,Moradabad,India,1004000,1804
+Kisangani,Kisangani,Democratic Republic of the Congo,1000000,25
+Sulaymaniyah,Sulaymaniyah,Iraq,1000000,4106
+Khulna,Khulna,Bangladesh,1000000,119
+Freetown,Freetown,Sierra Leone,1000000,1311
+Basra,Basra,Iraq,1000000,42712
