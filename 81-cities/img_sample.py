@@ -106,9 +106,12 @@ for i in df.index:
     print "plotting images..."
     
     for j in tmp.index:
-        im = Image.open(tmp.local_path.loc[j])
-        im.thumbnail((thumb_side,thumb_side),Image.ANTIALIAS)
-        
+        try:
+            im = Image.open(tmp.local_path.loc[j])
+            im.thumbnail((thumb_side,thumb_side),Image.ANTIALIAS)
+        except:
+            im = Image.new("RGB", (thumb_side, thumb_side), (50,50,50))
+            
         closest_open = min(subgrid,key=lambda x: city_center.distance(x))
         x = int(closest_open.x) * thumb_side
         y = int(closest_open.y) * thumb_side
