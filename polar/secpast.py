@@ -14,7 +14,7 @@ city_table.sort_values(by="total_img",inplace=True)
 
 pad = 100
 
-for i in range(len(city_table))[:22]:
+for i in range(len(city_table))[:64]:
     city = city_table.Center.iloc[i]
     CITYDIR = DIR + city + "/"
     yrs = [2012,2014]
