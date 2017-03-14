@@ -17,11 +17,11 @@ def pol2cart(rho,phi):
     y = rho * np.sin(phi)
     return(x, y)    
 
-grid_side = 256 # derived from median city's img count
+grid_side = 512 # play w this 
 radius = grid_side / 2
 secperweek = 604800
 
-for i in range(len(city_table))[:64]:
+for i in range(len(city_table))[:70]:
     city = city_table.Center.iloc[i]
     CITYDIR = DIR + city + "/"
     yrs = [2012,2014]
