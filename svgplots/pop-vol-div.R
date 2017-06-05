@@ -23,7 +23,8 @@ ggplot(df,aes(as.factor(year),y,alpha=diversity,size=tweets)) +
     strip.text = element_text(color="grey25")
   ) +
   labs(x="",y="") +
-  scale_size(range=c(1,179))
+  scale_size(range=c(1,50)) +
+  geom_point(data=df,aes(as.factor(year),y,size=pop),shape=1,color="black")
 
 
 theme(
