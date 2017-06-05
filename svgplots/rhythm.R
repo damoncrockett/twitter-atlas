@@ -1,6 +1,6 @@
 setwd("~/Desktop/")
-twelve = read.csv("sat12.csv")
-fourteen = read.csv("sat14.csv")
+twelve = read.csv("secpast12.csv")
+fourteen = read.csv("secpast14.csv")
 df = read.csv("/Users/damoncrockett/twitter-atlas/tables/pop-vol-div-geo-sorted-label.csv")
 
 library(ggplot2)
@@ -8,9 +8,10 @@ library(ggplot2)
 twelve$label = factor(twelve$label,levels=as.vector(df$label))
 fourteen$label = factor(fourteen$label,levels=as.vector(df$label))
 
-ggplot(twelve,aes(sat)) + 
+ggplot(twelve,aes(secpast)) + 
   geom_line(stat="density",linetype="dotted",color="grey25") +
   geom_line(data=fourteen,stat="density",color="grey25") +
+  coord_polar() +
   facet_wrap(~label) +
   theme(
     text = element_text(family = "mono", 
