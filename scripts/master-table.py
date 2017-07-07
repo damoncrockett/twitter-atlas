@@ -24,7 +24,9 @@ for measure in measures:
 cols = cols[:43] # bc we only have into July 2014
 X = pd.DataFrame(index=cities,columns=cols)
 
+counter = -1
 for city in X.index:
+    counter+=1
     for year in years:
         
         # hack bc I'm dumb
@@ -44,10 +46,14 @@ for city in X.index:
 
             for measure in measures:
                 
+                print(counter,city,year,month,measure)
+
                 if measure=='tweet':
                     X.loc[city,measure+str(year)+str(month)] = len(tmp)
                 elif measure=='actor':
                     X.loc[city,measure+str(year)+str(month)] = len(tmp.actor_id.unique())
+
+
 
 df = df.join(X,on="Center")
 df.to_csv(DIR+"master-table-500.csv",index=False)
