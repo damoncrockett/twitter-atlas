@@ -8,22 +8,27 @@ ACTORDIR = DIR + "actor-tables/"
 TARGET = DIR + "500-city-tables-10km-wide/"
 
 tables = glob.glob(os.path.join(TABLEDIR,"*.csv"))
+years = ['2011','2012','2013','']
 
 counter=-1
-for table in tables:
-    counter+=1
-    basename = os.path.basename(table)
-    city = basename.split("_")[0]
-    year = basename.split("_")[1][:-4]
+for year in years:
+    tmp = [item for item in tables if os.path.basename(item).split("_")[1][:-4]==year]
     
-    # a hack bc I was stupid
+    # hack bc I was stupid
     if year=='':
         year = "2014"
-
-    df = pd.read_csv(table)
+    
     actortable = pd.read_csv(ACTORDIR+year+".csv")
     actortable.set_index("mongo_id",inplace=True)
-    df = df.join(actortable,on="mongo_id")
+    
+    for table in tmp:
+        counter+=1
+        basename = os.path.basename(table)
+        city = basename.split("_")[0]
+        year = basename.split("_")[1][:-4]
+        
+        df = pd.read_csv(table)
+        df = df.join(actortable,on="mongo_id")
 
-    print(counter,table)
-    df.to_csv(TARGET+city+"_"+year+".csv",index=False)
+        print(counter,table)
+        df.to_csv(TARGET+city+"_"+year+".csv",index=False)
