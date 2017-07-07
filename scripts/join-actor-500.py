@@ -50,7 +50,9 @@ temp = None
 
 tables = glob.glob(os.path.join(TABLEDIR,"*.csv"))
 
+counter=-1
 for table in tables:
+    counter+=1
     basename = os.path.basename(table)
     city = basename.split("_")[0]
     year = basename.split("_")[1]
@@ -60,4 +62,5 @@ for table in tables:
     actortable.set_index("mongo_id",inplace=True)
     df = df.join(actortable,on="mongo_id")
 
+    print(counter,table)
     df.to_csv(TARGET+city+"_"+year+".csv",index=False)
