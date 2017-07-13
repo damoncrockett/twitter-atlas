@@ -4,7 +4,7 @@ from dateutil import parser
 
 PRE = "/data/damoncrockett/"
 DIR = PRE + "twitter-atlas/"
-TABLEDIR = DIR + "500-city-tables-10km-wide"
+TABLEDIR = DIR + "500-city-tables-10km-wide/"
 DATA = DIR + "world_ua_bboxes.csv"
 
 df = pd.read_csv(DATA)
@@ -21,7 +21,6 @@ for measure in measures:
         for month in months:
             cols.append(measure+str(year)+str(month))
 
-cols = cols[:43] # bc we only have into July 2014
 X = pd.DataFrame(index=cities,columns=cols)
 
 counter = -1
