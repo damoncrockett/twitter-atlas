@@ -43,17 +43,12 @@ for city in X.index:
 
         for month in months:
             tmp = table[table.month==month]
-
             for measure in measures:
-                
                 print(counter,city,year,month,measure)
-
                 if measure=='tweet':
                     X.loc[city,measure+str(year)+str(month)] = len(tmp)
                 elif measure=='actor':
                     X.loc[city,measure+str(year)+str(month)] = len(tmp.actor_id.unique())
-
-
 
 df = df.join(X,on="Center")
 df.to_csv(DIR+"master-table-500.csv",index=False)
