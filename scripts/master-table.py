@@ -8,7 +8,11 @@ TABLEDIR = DIR + "500-city-tables-10km-wide/"
 DATA = DIR + "world_ua_bboxes.csv"
 
 df = pd.read_csv(DATA)
-df = df[['Center','Urban_Area','Country','lat','lon']]
+df = df[['Center','Country','lat','lon']]
+
+# workaround for repeat city names
+df.Center.loc[155] = "Hyderabad_Pakistan"
+df.Center.loc[331] = "Valencia_Venezuela"
 
 cities = df.Center
 years = range(2011,2015)
@@ -22,6 +26,7 @@ for measure in measures:
             cols.append(measure+str(year)+str(month))
 
 X = pd.DataFrame(index=cities,columns=cols)
+n = len(X)
 
 counter = -1
 for city in X.index:
