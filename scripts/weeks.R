@@ -6,8 +6,8 @@ df = read.csv("spacetime_week.csv")
 library(ggplot2)
 
 for (i in c(149:0)) {
-	df = df[df$week <= i,]
-	ggplot(df,aes(lon,lat)) +
+    df = df[df$week <= i,]
+    ggplot(df,aes(lon,lat)) +
         borders(database = "world",
                 colour="grey45",
                 fill="grey25",
@@ -21,10 +21,10 @@ for (i in c(149:0)) {
               text = element_blank(),
               axis.ticks = element_blank()) +
         geom_point(color = "#1b79ff",
-        	       size = 0.1)
+                   size = 0.1)
     ggsave(paste0(targetpath,i,".png"),
-    	   width = 6.4,
-    	   height = 3.6,
-    	   units = "in")
+           width = 6.4,
+           height = 3.6,
+           units = "in")
     print(i)
 }
