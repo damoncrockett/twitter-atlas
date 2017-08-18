@@ -25,4 +25,5 @@ for (i in c(149:0)) {
     	   width = 6.4,
     	   height = 3.6,
     	   units = "in")
+    print(i)
 }
