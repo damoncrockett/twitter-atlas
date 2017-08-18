@@ -10,7 +10,8 @@ for (i in c(149:0)) {
 	ggplot(df,aes(lon,lat)) +
         borders(database = "world",
                 colour="grey45",
-                fill="grey25") +
+                fill="grey25",
+                size=0.1) +
         theme(panel.background = element_rect(fill="grey65"),
               panel.grid.major = element_line(color="grey65"),
               panel.grid.minor = element_line(color="grey65"),
