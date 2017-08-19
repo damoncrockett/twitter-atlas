@@ -21,10 +21,10 @@ for (i in c(149:0)) {
               text = element_blank(),
               axis.ticks = element_blank()) +
         geom_point(color = "#1b79ff",
-                   size = 0.1)
+                   size = 0.01)
     ggsave(paste0(targetpath,i,".png"),
-           width = 128,
-           height = 72,
+           width = 12.8,
+           height = 7.2,
            units = "in",
            limitsize = 0)
     print(i)
