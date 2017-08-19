@@ -22,9 +22,9 @@ for (i in c(149:0)) {
               axis.ticks = element_blank()) +
         geom_point(color = "#1b79ff",
                    size = 0.01)
-    ggsave(paste0(targetpath,i,".png"),
-           width = 12.8,
-           height = 7.2,
+    ggsave(paste0(targetpath,i,".pdf"),
+           width = 128,
+           height = 72,
            units = "in",
            limitsize = 0)
     print(i)
