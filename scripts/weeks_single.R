@@ -1,12 +1,16 @@
 basepath = "/data/damoncrockett/twitter-atlas/spacetime/"
-sourcepath = paste0(basepath,"weeks/")
+sourcepath = paste0(basepath,"weeksquash/")
 targetpath = paste0(basepath,"plots/")
 setwd(sourcepath)
 
 library(ggplot2)
+library(tools)
 
-for (i in c(149:0)) {
-    df = read.csv(paste0(i,".csv"))
+l = list.files(sourcepath)
+
+for (filename in l) {
+    df = read.csv(paste0(sourcepath,filename))
+    basename = file_path_sans_ext(filename)
     ggplot(df,aes(lon,lat)) +
         borders(database = "world",
                 colour="grey45",
@@ -22,10 +26,10 @@ for (i in c(149:0)) {
               axis.ticks = element_blank()) +
         geom_point(color = "#1b79ff",
                    size = 0.01)
-    ggsave(paste0(targetpath,i,".pdf"),
+    ggsave(paste0(targetpath,basename,".pdf"),
            width = 128,
            height = 72,
            units = "in",
            limitsize = 0)
-    print(i)
+    print(basename)
 }
