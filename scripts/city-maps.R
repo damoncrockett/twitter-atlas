@@ -9,9 +9,8 @@ bottom = min(df$lat)
 location = c(left,bottom,right,top)
 
 basemap = ggmap(get_map(location=location,
-                       source = "google",
-                       maptype = "terrain",
-                       color="bw"))
+                       source = "stamen",
+                       maptype = "toner-lite"))
 
 basemap + geom_point(data=df,
                     aes(lon,lat),
@@ -21,6 +20,13 @@ basemap + geom_point(data=df,
   theme(text=element_blank(),
         axis.text=element_blank(),
         axis.ticks=element_blank())
+
+qmplot(lon,lat,data=df,
+       maptype="toner-background",
+       darken=0.7,
+       color="#1b79ff",
+       size=0.1) 
+  
 
 ggsave("zoom-london.png",
        width=72,
