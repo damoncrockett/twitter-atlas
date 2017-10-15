@@ -31,11 +31,11 @@ for i in range(len(tables)):
 
         # val
         tmp['valbin'] = pd.cut(tmp.val,10,labels=False)
-        vals.append(tmp.valbin.value_counts(normalize="boolean").sort_index())
+        vals.append(list(tmp.valbin.value_counts(normalize="boolean").sort_index()))
         
         # sat
         tmp['satbin'] = pd.cut(tmp.sat,10,labels=False)
-        sats.append(tmp.satbin.value_counts(normalize="boolean").sort_index())
+        sats.append(list(tmp.satbin.value_counts(normalize="boolean").sort_index()))
 
         # hue
         tmp['polarhue'] = [item * 360 for item in tmp.huepeak]
@@ -64,7 +64,7 @@ for i in range(len(tables)):
                 cnames.append("1red")
         tmp['color'] = cnames
 
-        hues.append(tmp.color.value_counts(normalize="boolean").sort_index())
+        hues.append(list(tmp.color.value_counts(normalize="boolean").sort_index()))
 
         print("2014",i,city)
 
