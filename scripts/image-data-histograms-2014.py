@@ -18,12 +18,13 @@ vals = []
 sats = []
 hues = []
 
+used_cities = []
+
 for i in range(len(tables)):
     table = tables[i]
     city = cities[i]
     year = years[i]
 
-    used_cities = []
     if year=="2014":
         used_cities.append(city)
         tmp = pd.read_csv(table)
