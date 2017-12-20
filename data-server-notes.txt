@@ -1,0 +1,89 @@
+The metadata and many images are stored on our lab server:
+
+fiona-g-03.ucsd.edu
+
+Mehrdad originally built out a MongoDB server, and there are 4 database files, one for each year:
+
+[year]_tweets_db
+
+These files can be found in Mehrdad’s directory, but also at:
+
+/data/damoncrockett
+
+Mehrdad originally queried the database files to produce flat tables, stored in folders:
+
+[year]
+
+Each folder contains several files, except 2011, which is all in one file:
+
+output_2011.csv
+
+But thereafter:
+
+output_[year]_chunk_[chunk number].csv
+
+The 2011 file has these columns:
+
+'display_url', 'media_url', 'size_h', 'size_w', 'lat', 'lon', 'favoritesCount', 'followersCount', 'friendsCount', 'statusesCount', 'profile_url', 'post_url', 'img_url', 'postedTime', 'location', 'country'
+
+All other years (2012-2014) have these columns:
+
+'display_url', 'media_url', 'size_h', 'size_w', 'lat', 'lon',
+'favoritesCount', 'followersCount', 'friendsCount', 'statusesCount',
+'profile_url', 'post_url', 'img_url', 'postedTime', 'location', 'country', 'mongo_id', 'country_computed'
+
+So the only difference is ‘mongo_id’. This means, by the way, that new columns cannot be joined to the 2011 file, because we don’t have the indices. Because of this issue, at some point I re-queried the 2011 database to get mongo_ids, and produced this file:
+
+/data/damoncrockett/twitter_metadata_2011.csv
+
+This file has columns:
+
+‘mongo_id’,’lat’,’lon’,’postedTime’
+
+So there are some repeats with the earlier file, but I think I needed this for some small investigation and I didn’t want to have to do a join with the old file, so I grabbed the spacetime info as well.
+
+I then took Mehrdad’s table chunks, trimmed out columns I didn’t need, and made combined files for 2012-2014. The 2014 file is too big to read into memory (even with 128GB). The files are:
+
+/data/damoncrockett/twitter_metadata_[year].csv
+
+The columns for 2012 are:
+
+'media_url', 'lat', 'lon', 'favoritesCount', 'followersCount', 'friendsCount', 'statusesCount', 'profile_url', 'postedTime', 'location', 'country', 'mongo_id'
+
+And 2013:
+
+'media_url', 'lat', 'lon', 'favoritesCount', 'followersCount', 'friendsCount', 'statusesCount', 'postedTime', 'location', 'country',
+'mongo_id'
+
+There is a 2014 file with fewer columns than the full file and can be read into memory:
+
+/data/damoncrockett/twitter_metadata_2014_mezzo.csv
+
+It has columns:
+
+'mongo_id', 'lon', 'lat', 'media_url', 'postedTime'
+
+Eventually we decided we needed the text of the tweets, the hashtags, and the account ids, so I made a series of files in this folder:
+
+/data/damoncrockett/twitter-atlas/tweets/
+
+With names:
+
+twitter_metadata_[year]_rich_[chunk number].csv
+
+Note that 2011 and 2012 are all in one file, with no chunk number. The 2011 file has columns:
+
+'mongo_id', 'actor_id', 'postedTime', 'media_url', 'text', 'hashtags'
+
+The 2012 file and the 2013 and 2014 chunk files have columns:
+
+'mongo_id', 'actor_id', 'text', 'hashtags'
+
+
+
+
+
+
+
+ 
+
