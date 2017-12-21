@@ -24,7 +24,8 @@ output_[year]_chunk_[chunk number].csv
 
 The 2011 file has these columns:
 
-'display_url', 'media_url', 'size_h', 'size_w', 'lat', 'lon', 'favoritesCount', 'followersCount', 'friendsCount', 'statusesCount', 'profile_url', 'post_url', 'img_url', 'postedTime', 'location', 'country'
+'display_url', 'media_url', 'size_h', 'size_w', 'lat', 'lon', 'favoritesCount', 'followersCount', 'friendsCount', 'statusesCount', 
+'profile_url', 'post_url', 'img_url', 'postedTime', 'location', 'country'
 
 All other years (2012-2014) have these columns:
 
@@ -32,7 +33,8 @@ All other years (2012-2014) have these columns:
 'favoritesCount', 'followersCount', 'friendsCount', 'statusesCount',
 'profile_url', 'post_url', 'img_url', 'postedTime', 'location', 'country', 'mongo_id', 'country_computed'
 
-So the only difference is ‘mongo_id’. This means, by the way, that new columns cannot be joined to the 2011 file, because we don’t have the indices. Because of this issue, at some point I re-queried the 2011 database to get mongo_ids, and produced this file:
+So the only difference is ‘mongo_id’. This means, by the way, that new columns cannot be joined to the 2011 file, because we don’t
+have the indices. Because of this issue, at some point I re-queried the 2011 database to get mongo_ids, and produced this file:
 
 /data/damoncrockett/twitter_metadata_2011.csv
 
@@ -40,15 +42,18 @@ This file has columns:
 
 ‘mongo_id’,’lat’,’lon’,’postedTime’
 
-So there are some repeats with the earlier file, but I think I needed this for some small investigation and I didn’t want to have to do a join with the old file, so I grabbed the spacetime info as well.
+So there are some repeats with the earlier file, but I think I needed this for some small investigation and I didn’t want to have to 
+do a join with the old file, so I grabbed the spacetime info as well.
 
-I then took Mehrdad’s table chunks, trimmed out columns I didn’t need, and made combined files for 2012-2014. The 2014 file is too big to read into memory (even with 128GB). The files are:
+I then took Mehrdad’s table chunks, trimmed out columns I didn’t need, and made combined files for 2012-2014. The 2014 file is too 
+big to read into memory (even with 128GB). The files are:
 
 /data/damoncrockett/twitter_metadata_[year].csv
 
 The columns for 2012 are:
 
-'media_url', 'lat', 'lon', 'favoritesCount', 'followersCount', 'friendsCount', 'statusesCount', 'profile_url', 'postedTime', 'location', 'country', 'mongo_id'
+'media_url', 'lat', 'lon', 'favoritesCount', 'followersCount', 'friendsCount', 'statusesCount', 'profile_url', 'postedTime', 
+'location', 'country', 'mongo_id'
 
 And 2013:
 
@@ -63,7 +68,8 @@ It has columns:
 
 'mongo_id', 'lon', 'lat', 'media_url', 'postedTime'
 
-Eventually we decided we needed the text of the tweets, the hashtags, and the account ids, so I made a series of files in this folder:
+Eventually we decided we needed the text of the tweets, the hashtags, and the account ids, so I made a series of files in this 
+folder:
 
 /data/damoncrockett/twitter-atlas/tweets/
 
@@ -79,11 +85,20 @@ The 2012 file and the 2013 and 2014 chunk files have columns:
 
 'mongo_id', 'actor_id', 'text', 'hashtags'
 
+***************************************************************************************************************
 
+I have since created a new set of metadata files I am (perhaps foolishly) calling 'full'. The 'rich' files have been moved:
 
+/data/damoncrockett/twitter-atlas/tweets/rich/
 
+The 'full' files are in:
 
+/data/damoncrockett/twitter-atlas/tweets/full/
 
+The files are:
 
- 
+twitter_metadata_[year]_full_[chunk number].csv
 
+The files have columns:
+
+'mongo_id','lat','lon','postedTime','actor_id','text','hashtags','media_url'
